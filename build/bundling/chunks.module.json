@@ -1,0 +1,162 @@
+{
+  "errors": [],
+  "warnings": [],
+  "version": "4.46.0",
+  "hash": "d0f272fddf1e3ce3204b",
+  "publicPath": "/static/",
+  "outputPath": "/Users/lucasalvarado/Desktop/wordpressfront/build/static",
+  "assetsByChunkName": {
+    "list": "list.module.js",
+    "my-frontity-project": [
+      "my-frontity-project.module.js",
+      "my-frontity-project.4003136b2a2d7d7b89fc.hot-update.js"
+    ]
+  },
+  "assets": [
+    {
+      "name": "4003136b2a2d7d7b89fc.hot-update.json",
+      "size": 61,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "hotModuleReplacement": true,
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "list.module.js",
+      "size": 47017,
+      "chunks": [
+        "list"
+      ],
+      "chunkNames": [
+        "list"
+      ],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "my-frontity-project.4003136b2a2d7d7b89fc.hot-update.js",
+      "size": 20468,
+      "chunks": [
+        "my-frontity-project"
+      ],
+      "chunkNames": [
+        "my-frontity-project"
+      ],
+      "info": {
+        "hotModuleReplacement": true,
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "my-frontity-project.module.js",
+      "size": 6433798,
+      "chunks": [
+        "my-frontity-project"
+      ],
+      "chunkNames": [
+        "my-frontity-project"
+      ],
+      "info": {},
+      "emitted": false
+    }
+  ],
+  "filteredAssets": 0,
+  "entrypoints": {
+    "my-frontity-project": {
+      "chunks": [
+        "my-frontity-project"
+      ],
+      "assets": [
+        "my-frontity-project.module.js",
+        "my-frontity-project.4003136b2a2d7d7b89fc.hot-update.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "namedChunkGroups": {
+    "my-frontity-project": {
+      "chunks": [
+        "my-frontity-project"
+      ],
+      "assets": [
+        "my-frontity-project.module.js",
+        "my-frontity-project.4003136b2a2d7d7b89fc.hot-update.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "list": {
+      "chunks": [
+        "list"
+      ],
+      "assets": [
+        "list.module.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "chunks": [
+    {
+      "id": "list",
+      "rendered": false,
+      "initial": false,
+      "entry": false,
+      "size": 29840,
+      "names": [
+        "list"
+      ],
+      "files": [
+        "list.module.js"
+      ],
+      "hash": "83aed4f824dd2755ebd2",
+      "siblings": [],
+      "parents": [
+        "my-frontity-project"
+      ],
+      "children": [],
+      "childrenByOrder": {},
+      "modules": [],
+      "filteredModules": 0,
+      "origins": []
+    },
+    {
+      "id": "my-frontity-project",
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "size": 1657185,
+      "names": [
+        "my-frontity-project"
+      ],
+      "files": [
+        "my-frontity-project.module.js",
+        "my-frontity-project.4003136b2a2d7d7b89fc.hot-update.js"
+      ],
+      "hash": "394fd06a2f69b91674f8",
+      "siblings": [],
+      "parents": [],
+      "children": [
+        "list"
+      ],
+      "childrenByOrder": {},
+      "modules": [],
+      "filteredModules": 0,
+      "origins": []
+    }
+  ],
+  "logging": {
+    "webpack.buildChunkGraph.visitModules": {
+      "entries": [],
+      "filteredEntries": 5,
+      "debug": false
+    }
+  },
+  "children": [],
+  "generator": "loadable-components"
+}
